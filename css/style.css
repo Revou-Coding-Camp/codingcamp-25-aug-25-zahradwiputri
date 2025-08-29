@@ -38,6 +38,25 @@ body {
   overflow: hidden;
 }
 
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #333;
+  border-radius: 2px;
+}
+
 .nav-links {
   background-color: #ffd700;
   list-style: none;
@@ -198,6 +217,7 @@ body {
 
 .message-us h2 {
   content: '';
+  text-align: center;
   position: absolute;
   border-radius: 50%;
   background: inherit;
