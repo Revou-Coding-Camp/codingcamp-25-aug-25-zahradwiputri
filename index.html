@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LezoCreative</title>
+        <link rel="icon" type="image/png" href="assets/img/logoL.png">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="home-page">
+        <!-- navbar -->
+        <nav class="navbar">
+      <div class="logo">
+        <img src="assets/img/logoL.png" alt="Logo" height="40px">
+    </div>
+    <ul class="nav-links" type="none">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Profile.html">Our Profile</a></li>
+        <li><a href="portofolio.html">Portofolio</a></li>
+        <li><a href="#message-us">Message Us</a></li>
+    </ul>
+</nav>
+
+<!-- hero section -->
+<section class="hero">
+    <h2 id="greeting" >Hi , Welcome To Lezo Creative website!</h2>
+    <p>Lezo Creative is here to help brands grow with a unique, modern, and impactful look.</p>
+</section>
+
+<!-- headquarters -->
+<section class="headquarters" id="our-headquarter">
+  <h2>Our Headquarters</h2>
+  <div class="hq-list">
+    <div class="hq-item">
+      <div class="circle">
+        <img src="assets/img/hq.png" alt="Jakarta">
+      </div>
+      <p>Jakarta</p>
+    </div>
+
+    <div class="hq-item">
+      <div class="circle">
+        <img src="assets/img/hq.png" alt="Bandung">
+      </div>
+      <p>Bandung</p>
+    </div>
+
+    <div class="hq-item">
+      <div class="circle">
+        <img src="assets/img/hq.png" alt="Surabaya">
+      </div>
+      <p>Surabaya</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- message us -->
+<section class="message-us" id="message-us">
+  <div class="form-container">
+      <h2>Message Us</h2>
+        <form id="contactForm">
+          <br/>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name...">
+            <label for="birthdate">Date of birth:</label> 
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label>Gender:</label>
+            <div class="gender-group">
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label></div>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Drop your message here..."></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+        
+        <!-- output data -->
+        <div class="form-output">
+            <p><strong>Current time:</strong> <span id="out-time"></span></p>
+            <p><strong>Name:</strong> <span id="out-name"></span></p>
+            <p><strong>Date of birth:</strong> <span id="out-birthdate"></span></p>
+            <p><strong>Gender:</strong> <span id="out-gender"></span></p>
+            <p><strong>Message:</strong> <span id="out-message"></span></p>
+        </div>
+    </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
