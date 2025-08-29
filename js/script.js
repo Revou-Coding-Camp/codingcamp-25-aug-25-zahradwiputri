@@ -8,14 +8,6 @@ if (!userName) {
 
 greetingEl.textContent = `Hi ${userName}, Welcome To Lezo Creative Website!`;
 
-const toggle =
-document.querySelector(".menu-toggle");
-const navLinks =
-document.querySelector(.nav-links");
-
-toggle.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
-});
 
 const form = document.getElementById("contactForm");
 
