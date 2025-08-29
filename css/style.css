@@ -383,6 +383,10 @@ form button:hover {
   gap: 1.5rem;
 }
 
+.header-title {
+  text-align: center;
+}
+
 .card {
   background: var(--white);
   border-radius: 12px;
