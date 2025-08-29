@@ -277,6 +277,11 @@ form button:hover {
   line-height: 1.6;
 }
 
+@media (max-width: 768px) {
+  .vm-container {
+    flex-direction: column;
+  }
+}
 
 /* section profile.html */
 /* ==== PROFILE PAGE ==== */
@@ -353,6 +358,11 @@ form button:hover {
   background: #fafafa;
 }
 
+@media (max-width: 768px) {
+  .vm-container {
+    flex-direction: column;
+  }
+}
 
 /* section portofolio.html */
 /* ==== PORTFOLIO PAGE ===*/
