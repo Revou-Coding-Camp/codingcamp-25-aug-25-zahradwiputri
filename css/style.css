@@ -92,6 +92,22 @@ body {
   animation-delay: 3s;
 }
 
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #444;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
 .home-page .hero {
   position: relative;
   width: 100%;
