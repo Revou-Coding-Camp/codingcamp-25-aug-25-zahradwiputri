@@ -45,5 +45,4 @@ form.addEventListener("submit", function (event) {
   outBirthdate.textContent = birthdate;
   outGender.textContent = gender.value;
   outMessage.textContent = message;
-
 });
